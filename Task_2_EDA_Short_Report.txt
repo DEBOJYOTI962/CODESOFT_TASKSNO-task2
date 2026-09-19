@@ -1,0 +1,49 @@
+TASK 2: EXPLORATORY DATA ANALYSIS (EDA)
+EDA SHORT REPORT
+
+Dataset: Random Customer Purchase Dataset
+Records: 300 customers
+
+1. DATASET OVERVIEW
+The dataset contains 300 randomly generated customer records covering demographic information, income, purchasing behavior, satisfaction, preferred product category, and churn status. The dataset was created for practicing Exploratory Data Analysis using Python and Pandas.
+
+2. DATA QUALITY CHECK
+- Missing values: 0
+- Duplicate records: 0
+- Data types: Numeric and categorical variables are stored in appropriate formats.
+- The dataset is ready for exploratory analysis.
+
+3. DESCRIPTIVE STATISTICS
+- Average age: 34.8 years
+- Average income: ₹57,599
+- Average total spending: ₹11,940
+- Average satisfaction score: 7.03 out of 10
+- Purchase frequency varies across customers, showing different levels of engagement.
+
+4. KEY EDA FINDINGS
+- Customer ages range from 18 to 65 years, with an average age of approximately 34.8 years.
+- The average customer income is approximately ₹57,599.
+- The average total customer spending is approximately ₹11,940.
+- Kolkata has the highest average customer spending among the locations in the dataset.
+- Grocery is the highest-spending preferred product category.
+- The average satisfaction score is 7.03/10, indicating generally positive customer satisfaction.
+- Approximately 12.7% of customers are classified as churn-risk customers in this synthetic dataset.
+- IQR-based analysis identified potential outliers, mainly in income and total-spending values. These values should be reviewed before further statistical or predictive modeling.
+
+5. BUSINESS INSIGHTS
+The analysis shows that customer value differs across locations and purchasing patterns. Customers with higher purchase frequency generally generate greater total spending. Customers with lower satisfaction and lower purchase frequency are more likely to be classified as churn-risk customers.
+
+Location-level differences can help businesses identify regions with stronger customer value. Preferred product categories can also be used to understand customer interests and improve product-focused marketing.
+
+6. RECOMMENDATIONS
+- Create loyalty programs for high-spending customers.
+- Provide personalized offers to customers with low purchase frequency.
+- Investigate customers with low satisfaction scores to reduce churn.
+- Use location-based insights to design targeted marketing campaigns.
+- Review extreme income and spending values to determine whether they are genuine observations or possible data-entry errors.
+- Use the cleaned dataset for further visualization and predictive modeling.
+
+7. CONCLUSION
+This Exploratory Data Analysis provides useful insights into customer demographics, income, purchasing behavior, satisfaction, location, product preferences, and churn patterns. The analysis demonstrates how descriptive statistics and outlier detection can be used to identify important business trends.
+
+The dataset can be used as a foundation for Task 3, where the findings can be presented through charts, dashboards, and interactive visualizations.
